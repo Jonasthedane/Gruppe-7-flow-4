@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>How JQuery works</title>
+<meta name="viewport" content="width=device-width; initial-scale=1;">
+
+<!--loading jQuery from server-->
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<!--Loading jQuery plugin (https://github.com/flesler/jquery.scrollTo)-->
+<script type="text/javascript" src="../../minhjemmeside/scripts/jquery.scrollTo-master/jquery.scrollTo.min.js"></script>
+<script type="text/javascript" src="../../minhjemmeside/skdslider.min.js"></script>
+<script type="text/javascript">
+jQuery(document).ready(function(){
+jQuery('#demo').skdslider({
+'delay':5000, // Delay duration between two slides in micro seconds.
+'fadeSpeed': 2000, // Fading Speed in micro seconds.
+'showNav': true, // It will show/hide navigation icon.
+'numericNav': false // If true, navigation will be numeric
+});
+});
+</script>
+<script type="text/javascript">
+		
+		//the famous document ready function
+	$(document).ready(function(){	
+		$("#jsterror").click(myFunction);	
+		
+		//Implementing the scroll to plugin.
+		
+		$("#stickynav a").click(function(e){
+			e.preventDefault();
+			$(window).scrollTo(this.hash,1000);
+			
+		});
+	// -> end document ready	
+	});
+		
+	//min custom function	
+	function myFunction(){
+	//a statement, closed with semicolon, Husk det.
+	//alert er en standarfunktion, taking arguments type string (plain text)
+	//alert("HELLO");
+	//opening a new page in tab
+	window.open("https://jquery.com", "_blank");
+	}
+	//clasic JS
+	//document.getElementById("jsterror").addEventListener("click", myFunction);
+</script>
+<link href="../../minhjemmeside/onepager.css" rel="stylesheet">
+<link href="../../minhjemmeside/skdslider.css" rel="stylesheet">
+</head>
+
+<body>
+<!-- Navigations bar-->
+<nav id="stickynav"> <a href="#home">HOME</a> <a href="#about">ABOUT</a> <a href="#projects">PROJECTS</a> <a href="#contact">CONTACT</a>
+  <button id="jsterror">Take me to jQuery</button>
+</nav>
+<section id="home">
+  <h1>A brilliant one pager!</h1>
+  <h2>My splendid portfolio</h2>
+  <div id="demo" class="skdslider">
+    <ul>
+      <li> <img src="../../minhjemmeside/slides/1.jpg" />
+        <div class="slide-desc">
+          <h2><a href="https://www.jqueryscript.net/slider/">Slider</a> Title 1</h2>
+          <p>Description 1.</p>
+        </div>
+      </li>
+      <li><img src="../../minhjemmeside/slides/2.jpg" />
+        <div class="slide-desc">
+          <h2>Slider Title 2</h2>
+          <p>Description 2.</p>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+<section id="about">
+  <h2>ABOUT ME</h2>
+</section>
+<section id="projects">
+  <h2>MY PROJECTS</h2>
+</section>
+<section id="contact">
+  <h2>Feel free to contact me</h2>
+</section>
+</body>
+<!--embedded Javascript-->
+<script type="text/javascript">	
+	function myFunction(){
+	//a statement, closed with semicolon, Husk det.
+	//alert er en standarfunktion, taking arguments type string (plain text)
+	//alert("HELLO");
+	//opening a new page in tab
+	window.open("https://jquery.com", "_blank");
+	}
+	document.getElementById("jsterror").addEventListener("click", myFunction);
+</script>
+</html>

@@ -3,7 +3,7 @@
 body {
     margin: 0;
     padidng: 0;
-	font-family: lato, "sans serif";
+    font-family: lato, "sans serif";
 }
 #wrapper {
     display: flex;
@@ -25,29 +25,25 @@ body {
     margin-left: auto;
     margin-right: auto;
     min-height: 100%;
-	
-	
 }
 #forside2 {
-	width: 100%;
-	text-align: center;
-	
-	font-family: lato, "sans serif";
-	color: white;
-	letter-spacing: 1px;
-	font-size: 4em;
-
+    width: 100%;
+    text-align: center;
+    font-family: lato, "sans serif";
+    color: white;
+    letter-spacing: 1px;
+    font-size: 4em;
 }
 .menu_1 {
     width: 100%;
     height: 70px;
-	position: fixed;
-	background-color: rgba(116,156,211,0.75);
+    position: fixed;
+    background-color: rgba(116,156,211,0.75);
 }
 .logo {
     width: 20%;
-	margin-left: auto;
-	margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 .logo img {
     width: 20%;
@@ -69,15 +65,14 @@ nav {
     font-family: 'Lato', sans-serif;
     font-size: 1.2em;
     letter-spacing: 2px;
-
 }
 nav.mobil {
-	display: none;
+    display: none;
 }
 .ce {
-	max-width: 1080px;
-	margin-left: auto;
-	margin-right: auto;
+    max-width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .top {
     background-color: #749CD3;
@@ -89,32 +84,32 @@ nav.mobil {
     background-color: #749CD3;
     width: 100%;
     display: flex;
-	padding-top: 80px;
-	padding-bottom: 80px;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 .center {
-	display: flex;
-	width: 1080px;
-	margin-left: auto;
-	margin-right: auto;
-	justify-content:space-around;
+    display: flex;
+    width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-around;
 }
 .billede {
     width: 50%;
-	padding-top: 15px;
+    padding-top: 30px;
 }
 .tekst {
     width: 50%;
 }
 .tekst p {
-	padding: 0px 40px;
-	line-height: 1.4em;
+    padding: 0px 40px;
+    line-height: 1.4em;
 }
 .tekst h1 {
-	padding: 0px 40px;
+    padding: 0px 40px;
 }
 .billede img {
-    max-height: 400px;
+    max-height: 300px;
     margin: 0 auto;
     display: block;
 }
@@ -142,64 +137,58 @@ nav.mobil {
     border-radius: 20px;
 }
 .betaling_2 p, h1, h2 {
-	text-align: center
+    text-align: center
 }
 .betaling_2 button {
-	 width: 150px;
-	display: block;
-  text-align: center;
-  margin:0 auto;
-	color: #FFFFFF;
-	background-color: #4EFF60;
-	border-radius: 25px;
-	border: none;
-	padding: 10px 0px;
-	font-size: 1.3em;
-	
-	
+    width: 150px;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    color: #FFFFFF;
+    background-color: #30A93C;
+    border-radius: 25px;
+    border: none;
+    padding: 10px 0px;
+    font-size: 1.3em;
 }
-
 .betaling_2 img {
-	width: 70%;
-	margin-left: auto;
-	margin-right: auto;
-	
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
 }
 .produktlogo {
-	text-align: center;
+    text-align: center;
 }
 .betaling_1 p, h1, h2 {
-	text-align: center
+    text-align: center
 }
 .betaling_1 button {
-	 width: 150px;
-	display: block;
-  text-align: center;
-  margin:0 auto;
-	color: #FFFFFF;
-	background-color: #4EFF60;
-	border-radius: 25px;
-	border: none;
-	padding: 10px 0px;
-	font-size: 1.3em;
+    width: 150px;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    color: #FFFFFF;
+    background-color: #30A93C;
+    border-radius: 25px;
+    border: none;
+    padding: 10px 0px;
+    font-size: 1.3em;
 }
-
 .betaling_1 img {
-	width: 70%;
-	margin-left: auto;
-	margin-right: auto;
-	
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
 }
 #digital_1 {
     height: auto;
     width: 100%;
     background-color: #749CD3;
     display: flex;
-	padding-top: 80px;
-	padding-bottom: 80px;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 .digital_2 {
-	height: auto;
+    height: auto;
     width: 100%;
     background-image: url(htmlpic.jpg);
     background-position: center;
@@ -208,15 +197,15 @@ nav.mobil {
     display: flex;
 }
 #branding_1 {
-	height: auto;
+    height: auto;
     width: 100%;
     background-color: #749CD3;
     display: flex;
-	padding-top: 80px;
-	padding-bottom: 80px;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 .branding_2 {
-	height: auto;
+    height: auto;
     width: 100%;
     background-image: url(brandingpic.jpg);
     background-position: center;
@@ -225,188 +214,188 @@ nav.mobil {
     display: flex;
 }
 #support {
-	height: auto;
+    height: auto;
     width: 100%;
     background-color: #749CD3;
     display: flex;
-	align-content: center;
-	padding-top: 80px;
-	padding-bottom: 80px;
+    align-content: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 footer {
-	height: 30px;
-	width: 100%;
-	text-align: center;
-	padding-top: 15px;
-	font-family: lato, "sans serif";
-	background-color: #DF9B67;
+    height: 30px;
+    width: 100%;
+    text-align: center;
+    padding-top: 15px;
+    font-family: lato, "sans serif";
+    background-color: #DF9B67;
 }
-
 #contact {
-width: 25%;
-align-content: center;
-padding-top: 70px;
-margin-left: auto;
-margin-right: auto;
-	font-family: lato "sans serif";
+    width: 25%;
+    align-content: center;
+    padding-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: lato "sans serif";
 }
 .input {
-	border: none;
-	border-radius: 5px;
-	padding-top: 8px;
-	padding-bottom: 8px;
-	width: 100%
-	
+    border: none;
+    border-radius: 5px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 100%
 }
 .row {
-	margin-top: 10px;
+    margin-top: 10px;
 }
 .right {
-	float: right;
+    float: right;
 }
 .mobile {
-  display: none;
-  position: fixed; /* rest of the content stays in place */
-  width: 100%;
-  top: 0;
-
+    display: none;
+    position: fixed; /* rest of the content stays in place */
+    width: 100%;
+    top: 0;
 }
 .mobile div {
-  display: none;
+    display: none;
 }
 .mobile button {
-  position: absolute;
-  top: 15px;
-  right: 15px; 
-  background: url("burger.png") center no-repeat; /* shorthand */
-  border: none;
-  border-radius: 3px;
-  background-size: 80%;
-  width: 30px;
-  height: 30px;
-  transition: all 400ms ease;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: url("burger.png") center no-repeat; /* shorthand */
+    border: none;
+    border-radius: 3px;
+    background-size: 80%;
+    width: 30px;
+    height: 30px;
+    transition: all 400ms ease;
 }
-
 /* class "expanded" defined in .js */
 .mobile button.expanded {
-  transform: rotate(90deg);
-  background-color: transparent;
-  border: 0;
+    transform: rotate(90deg);
+    background-color: transparent;
+    border: 0;
 }
-
 .mobile a {
-  display: block; /* each button full screen width */
+    display: block; /* each button full screen width */
 }
-
 .desktop {
-  overflow: hidden; /* so that .mobile doesn't push this down */
+    overflow: hidden; /* so that .mobile doesn't push this down */
 }
 .desktop a {
-  width: 25%;
-  float: left;
-  border-right: 1px solid #ddd;
-  box-sizing: border-box; /* padding and border included in the element's total width and height */
+    width: 25%;
+    float: left;
+    border-right: 1px solid #ddd;
+    box-sizing: border-box; /* padding and border included in the element's total width and height */
 }
 .desktop a:last-child {
-  border-right: none;
+    border-right: none;
 }
 article {
-  padding: 0 30px 15px;
+    padding: 0 30px 15px;
 }
 
-
-@media screen and (max-width: 910px){
-	nav.mobilnav {
-	}
-	#support img { display: none}
-	
-	#contact {
-		width: 100%;
-		padding-top: 0px;
-	}
-	.billede {
-		padding-top: 80px;
-	}
-	 .mobile {
+@media screen and (max-width: 910px) {
+nav.mobilnav {
+}
+#support img {
+    display: none
+}
+#contact {
+    width: 100%;
+    padding-top: 0px;
+}
+.billede {
+    padding-top: 80px;
+}
+.mobile {
     display: block;
-  }
-  nav {
+}
+nav {
     display: none;
-  }
-	a {
-  background: #749CD3;
-  text-align: center;
-  padding: 20px 0;
-  border-bottom: 0.5px rgba(255,255,255,1.00) solid;
-  text-decoration: none;
-  color: #FFFFFF;
-  font-weight: bold;
 }
-	a:hover {
-  background: #9AB4D7;
+#contact {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
-	.right {
-		float: none;
-	}
-@media screen and (max-width: 771px){
-	
-	.tekst {
-		
-		width: 100%;
-	}
-	.billede {
-		display: none	
-	}
-	#contact {
-		width: 100%;
-	}
-	#contact_form {
-		width: 50%;
-		margin-left: auto;
-		margin-right: auto;
-	}
-	.web_2 {
-		display: flex;
-	}
-	#forside2 {
-	width: 100%;
-	text-align: center;
-	
-	font-family: lato, "sans serif";
-	color: white;
-	letter-spacing: 1px;
-	font-size: 3em;
+#contact_form {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
 }
-	
+a {
+    background: #749CD3;
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 0.5px rgba(255,255,255,1.00) solid;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+a:hover {
+    background: #9AB4D7;
+}
+.right {
+    float: none;
+}
+@media screen and (max-width: 771px) {
+ .tekst {
+ width: 100%;
+}
+ .billede {
+ display: none
+}
+ #contact {
+ width: 100%;
+}
+ #contact_form {
+ width: 50%;
+ margin-left: auto;
+ margin-right: auto;
+}
+ .web_2 {
+ display: flex;
+}
+ #forside2 {
+ width: 100%;
+ text-align: center;
+ font-family: lato, "sans serif";
+ color: white;
+ letter-spacing: 1px;
+ font-size: 3em;
 }
 }
-@media screen and (max-width: 515px){
-	
-	.betaling_1 button {
-	width: 100px;
-	display: block;
-  	text-align: center;
-  	margin:0 auto;
-	color: #FFFFFF;
-	background-color: #4EFF60;
-	border-radius: 25px;
-	border: none;
-	padding: 10px 0px;
-	font-size: 1em;
 }
-	.betaling_2 button {
-	width: 100px;
-	display: block;
-  	text-align: center;
-  	margin:0 auto;
-	color: #FFFFFF;
-	background-color: #4EFF60;
-	border-radius: 25px;
-	border: none;
-	padding: 10px 0px;
-	font-size: 1em;
+
+@media screen and (max-width: 515px) {
+.betaling_1 button {
+    width: 100px;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    color: #FFFFFF;
+    background-color: #4EFF60;
+    border-radius: 25px;
+    border: none;
+    padding: 10px 0px;
+    font-size: 1em;
 }
-	.betaling_1 {
+.betaling_2 button {
+    width: 100px;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    color: #FFFFFF;
+    background-color: #4EFF60;
+    border-radius: 25px;
+    border: none;
+    padding: 10px 0px;
+    font-size: 1em;
+}
+.betaling_1 {
     width: 45%;
     background-color: rgba(223,221,221,0.75);
     height: 400px;
@@ -419,5 +408,5 @@ article {
     height: 400px;
     margin: 30px 5px;
     border-radius: 20px;
-	}
+}
 }
