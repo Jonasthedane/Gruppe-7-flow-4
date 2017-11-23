@@ -57,6 +57,7 @@ nav a {
     margin-bottom: 12px;
     color: #FFFFFF;
     text-decoration: none;
+	padding: 0px 10px;
 }
 nav {
     margin: 0;
@@ -96,20 +97,21 @@ nav.mobil {
 }
 .billede {
     width: 50%;
-    padding-top: 30px;
+    padding-top: 10px;
 }
 .tekst {
     width: 50%;
 }
 .tekst p {
-    padding: 0px 40px;
+    padding-left: 17px;
     line-height: 1.4em;
+	padding-right:10px;
 }
 .tekst h1 {
     padding: 0px 40px;
 }
 .billede img {
-    max-height: 300px;
+    max-height: 310px;
     margin: 0 auto;
     display: block;
 }
@@ -207,7 +209,7 @@ nav.mobil {
 .branding_2 {
     height: auto;
     width: 100%;
-    background-image: url(brandingpic.jpg);
+    background-image: url(brandingphoto.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -303,10 +305,6 @@ nav.mobilnav {
 #support img {
     display: none
 }
-#contact {
-    width: 100%;
-    padding-top: 0px;
-}
 .billede {
     padding-top: 80px;
 }
@@ -320,6 +318,7 @@ nav {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
+	padding-top: 0px;
 }
 #contact_form {
     width: 50%;
@@ -340,6 +339,10 @@ a:hover {
 }
 .right {
     float: none;
+}
+	.tekst {
+		padding: 0px 15px;
+	}
 }
 @media screen and (max-width: 771px) {
  .tekst {
@@ -368,7 +371,6 @@ a:hover {
  font-size: 3em;
 }
 }
-}
 
 @media screen and (max-width: 515px) {
 .betaling_1 button {
@@ -389,7 +391,7 @@ a:hover {
     text-align: center;
     margin: 0 auto;
     color: #FFFFFF;
-    background-color: #4EFF60;
+    background-color: #30A93C;
     border-radius: 25px;
     border: none;
     padding: 10px 0px;
